@@ -13,7 +13,7 @@ import model.ListItem;
  * @author Misti Christianson - mchristianson CIS175 - Spring 2024 Feb 1, 2024
  */
 public class ListItemHelper {
-	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("ShoppingList");
+	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("WebShoppingList");
 
 	//add an item to the database/table
 	public void insertItem(ListItem li) {
